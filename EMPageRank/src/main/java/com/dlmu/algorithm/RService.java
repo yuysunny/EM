@@ -24,9 +24,9 @@ public class RService {
 //		c.eval("png(file='/Users/yyy/Desktop/test.png',width=400,height=350,res=72)");
 		
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd-HHmmss");  
-        Date date = new Date();  
-        String str = simpleDateFormat.format(date);  
-        c.eval("png(file='/Users/yyy/Desktop/acm40_300.png',width=400,height=350,res=72)");
+        	Date date = new Date();  
+        	String str = simpleDateFormat.format(date);  
+        	c.eval("png(file='/Users/yyy/Desktop/acm40_300.png',width=400,height=350,res=72)");
 
 //        c.eval("png(file='"+JsonUtil.plot_file+str+".png',width=400,height=350,res=72)");
 		c.parseAndEval("print(ggplot(data=mdf,aes(x=iteration,y=value,group=variable,colour=variable))+geom_line());dev.off()");
