@@ -15,5 +15,6 @@
   "output_node_file": "/Users/yyy/Documents/workspace/EMPageRank/node_score",
   "output_edgeType_file": "/Users/yyy/Documents/workspace/EMPageRank/edgeType_score",
   "log_file":"./log4j.properties",
-  "plot_file":"/Users/yyy/Desktop/toy4"
+  "plot_file":"/Users/yyy/Desktop/toy4",
+  "task_node":"s"
 }
