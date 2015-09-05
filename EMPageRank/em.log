@@ -1,0 +1,825 @@
+02 九月 2015 20:34:37,965 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph: starting to buildGraph 
+02 九月 2015 20:34:37,966 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph-loadingEdgeTypes: starting to load edge's types from /Users/yyy/Documents/workspace/EMPageRank/pagerank_type.txt
+02 九月 2015 20:34:37,967 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph-loadingEdgeTypes: there are 6 types in graph
+02 九月 2015 20:34:37,967 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph-loadingNodes: starting to load nodes from /Users/yyy/Documents/workspace/EMPageRank/pagerank_node.txt
+02 九月 2015 20:34:37,969 [main] INFO  com.dlmu.graph.MyGraph  -BuildGraph-loadingNodes: time to load 7 nodes = 0s
+02 九月 2015 20:34:37,969 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph-loadingEdges: starting to load edges from /Users/yyy/Documents/workspace/EMPageRank/pagerank_link.txt
+02 九月 2015 20:34:37,971 [main] INFO  com.dlmu.graph.MyGraph  -BuildGraph-loadingEdges: time to load 22 edges = 0s
+02 九月 2015 20:34:37,977 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM-loadingFeedbacks: starting to load feedbacks from /Users/yyy/Documents/workspace/EMPageRank/feedback.txt
+02 九月 2015 20:34:37,978 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-loadingFeedbacks: there are 2 feedback nodes
+02 九月 2015 20:34:37,978 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 0
+02 九月 2015 20:34:37,978 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:37,985 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:37,986 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:37,986 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:37,987 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:37,987 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:37,994 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.007s
+02 九月 2015 20:34:37,994 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:37,994 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 1
+02 九月 2015 20:34:37,994 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:37,995 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:37,996 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:37,996 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:37,997 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:37,997 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:37,997 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:37,997 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:37,997 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 2
+02 九月 2015 20:34:37,997 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:37,998 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:37,999 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:37,999 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:37,999 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:37,999 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:37,999 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,000 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.001s
+02 九月 2015 20:34:38,000 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 3
+02 九月 2015 20:34:38,000 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,001 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,001 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,001 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,002 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,002 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,002 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,002 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,002 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 4
+02 九月 2015 20:34:38,002 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,003 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,004 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,004 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,005 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,005 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,005 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,005 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,005 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 5
+02 九月 2015 20:34:38,005 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,006 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,007 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,007 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,007 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,007 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,007 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,007 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,008 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 6
+02 九月 2015 20:34:38,008 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,008 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,010 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,011 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,011 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,011 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,011 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,012 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,012 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 7
+02 九月 2015 20:34:38,012 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,013 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,013 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,014 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,014 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,014 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,014 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,014 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,014 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 8
+02 九月 2015 20:34:38,014 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,015 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,016 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,016 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,016 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,017 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,017 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,017 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,017 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 9
+02 九月 2015 20:34:38,017 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,018 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,019 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,019 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,019 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,019 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,019 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,019 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,020 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 10
+02 九月 2015 20:34:38,020 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,020 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,022 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,022 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,022 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,022 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,023 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.001s
+02 九月 2015 20:34:38,023 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,023 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 11
+02 九月 2015 20:34:38,023 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,024 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,025 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,025 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,025 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,025 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,025 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,025 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,025 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 12
+02 九月 2015 20:34:38,026 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,026 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,027 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,027 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,028 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,028 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,028 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,028 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,028 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 13
+02 九月 2015 20:34:38,028 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,029 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,030 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,030 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,030 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,030 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,030 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,031 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.001s
+02 九月 2015 20:34:38,031 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 14
+02 九月 2015 20:34:38,031 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,031 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,032 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,033 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,033 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,033 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,033 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,033 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,033 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 15
+02 九月 2015 20:34:38,033 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,034 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,035 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,035 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,035 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,035 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,035 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,036 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.001s
+02 九月 2015 20:34:38,036 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 16
+02 九月 2015 20:34:38,036 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,036 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,037 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,037 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,038 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,038 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,038 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,038 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,038 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 17
+02 九月 2015 20:34:38,038 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,039 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,040 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,041 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,041 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,041 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,041 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,041 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,042 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 18
+02 九月 2015 20:34:38,042 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,042 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,043 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,044 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,044 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,044 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,044 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,044 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,045 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 19
+02 九月 2015 20:34:38,045 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,045 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,046 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,046 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,047 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,047 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,047 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,047 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,047 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 20
+02 九月 2015 20:34:38,047 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,055 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,063 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,063 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,064 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,064 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,064 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,064 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,064 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 21
+02 九月 2015 20:34:38,064 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,064 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,066 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,066 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,066 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,066 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,066 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,066 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,066 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 22
+02 九月 2015 20:34:38,066 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,067 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,068 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,068 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,069 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,069 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,069 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,069 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,069 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 23
+02 九月 2015 20:34:38,069 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,070 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,071 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,071 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,072 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,072 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,072 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,072 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,072 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 24
+02 九月 2015 20:34:38,072 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,073 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,074 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,074 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,075 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,075 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,075 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,075 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,075 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 25
+02 九月 2015 20:34:38,075 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,076 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,077 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,077 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,078 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,078 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,078 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,078 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,078 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 26
+02 九月 2015 20:34:38,078 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,079 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,080 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,080 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,081 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,081 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,081 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,081 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,081 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 27
+02 九月 2015 20:34:38,081 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,082 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,083 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,083 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,084 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,084 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,084 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,084 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,084 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 28
+02 九月 2015 20:34:38,084 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,085 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,086 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,086 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,087 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+02 九月 2015 20:34:38,087 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,087 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,087 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,087 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 29
+02 九月 2015 20:34:38,087 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,088 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,089 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,089 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,089 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,089 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,089 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,089 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+02 九月 2015 20:34:38,090 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 30
+02 九月 2015 20:34:38,090 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+02 九月 2015 20:34:38,090 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+02 九月 2015 20:34:38,091 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+02 九月 2015 20:34:38,092 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+02 九月 2015 20:34:38,092 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+02 九月 2015 20:34:38,092 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+02 九月 2015 20:34:38,092 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+02 九月 2015 20:34:38,092 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,361 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph: starting to buildGraph 
+03 九月 2015 15:38:25,364 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph-loadingEdgeTypes: starting to load edge's types from /Users/yyy/Documents/workspace/EMPageRank/pagerank_type.txt
+03 九月 2015 15:38:25,365 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph-loadingEdgeTypes: there are 6 types in graph
+03 九月 2015 15:38:25,365 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph-loadingNodes: starting to load nodes from /Users/yyy/Documents/workspace/EMPageRank/pagerank_node.txt
+03 九月 2015 15:38:25,367 [main] INFO  com.dlmu.graph.MyGraph  -BuildGraph-loadingNodes: time to load 7 nodes = 0s
+03 九月 2015 15:38:25,367 [main] DEBUG com.dlmu.graph.MyGraph  -BuildGraph-loadingEdges: starting to load edges from /Users/yyy/Documents/workspace/EMPageRank/pagerank_link.txt
+03 九月 2015 15:38:25,368 [main] INFO  com.dlmu.graph.MyGraph  -BuildGraph-loadingEdges: time to load 22 edges = 0s
+03 九月 2015 15:38:25,372 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM-loadingFeedbacks: starting to load feedbacks from /Users/yyy/Documents/workspace/EMPageRank/feedback.txt
+03 九月 2015 15:38:25,372 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-loadingFeedbacks: there are 2 feedback nodes
+03 九月 2015 15:38:25,374 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 0
+03 九月 2015 15:38:25,374 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,384 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,385 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.0922619; after normalization is 0.41307499.....0.2233538757696272
+03 九月 2015 15:38:25,385 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03660714; after normalization is 0.41307499.....0.08862105159162506
+03 九月 2015 15:38:25,385 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.03322738; after normalization is 0.41307499.....0.08043909896360465
+03 九月 2015 15:38:25,385 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.12261905; after normalization is 0.41307499.....0.2968445269465479
+03 九月 2015 15:38:25,385 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.03322738; after normalization is 0.41307499.....0.08043909896360465
+03 九月 2015 15:38:25,385 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04334643; after normalization is 0.41307499.....0.10493598268924488
+03 九月 2015 15:38:25,386 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05178571; after normalization is 0.41307499.....0.1253663650757457
+03 九月 2015 15:38:25,386 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,386 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,387 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,387 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,393 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.006s
+03 九月 2015 15:38:25,393 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,394 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 1
+03 九月 2015 15:38:25,394 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,395 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,395 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08133569; after normalization is 0.42343837.....0.1920838916888897
+03 九月 2015 15:38:25,395 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.04259236; after normalization is 0.42343837.....0.1005869165800917
+03 九月 2015 15:38:25,396 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04637658; after normalization is 0.42343837.....0.10952380153928894
+03 九月 2015 15:38:25,396 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.09648634; after normalization is 0.42343837.....0.22786395101605933
+03 九月 2015 15:38:25,396 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04637658; after normalization is 0.42343837.....0.10952380153928894
+03 九月 2015 15:38:25,396 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.05756959; after normalization is 0.42343837.....0.13595742398120414
+03 九月 2015 15:38:25,396 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05270123; after normalization is 0.42343837.....0.12446021365517726
+03 九月 2015 15:38:25,396 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,396 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,397 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,397 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,397 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,397 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,397 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 2
+03 九月 2015 15:38:25,397 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,399 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,399 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.09563035; after normalization is 0.42961615000000003.....0.22259486753465854
+03 九月 2015 15:38:25,399 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03704714; after normalization is 0.42961615000000003.....0.08623311763303125
+03 九月 2015 15:38:25,399 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.03841232; after normalization is 0.42961615000000003.....0.08941079147047894
+03 九月 2015 15:38:25,399 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11791289; after normalization is 0.42961615000000003.....0.2744610275940511
+03 九月 2015 15:38:25,400 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.03841232; after normalization is 0.42961615000000003.....0.08941079147047894
+03 九月 2015 15:38:25,400 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04722807; after normalization is 0.42961615000000003.....0.10993085339086996
+03 九月 2015 15:38:25,400 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05497306; after normalization is 0.42961615000000003.....0.1279585509064312
+03 九月 2015 15:38:25,400 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,400 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,400 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,400 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,401 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,401 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,401 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 3
+03 九月 2015 15:38:25,401 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,402 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,402 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08753476; after normalization is 0.42627317000000003.....0.2053489784496641
+03 九月 2015 15:38:25,403 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03917526; after normalization is 0.42627317000000003.....0.09190177275290397
+03 九月 2015 15:38:25,403 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04145376; after normalization is 0.42627317000000003.....0.09724693674715675
+03 九月 2015 15:38:25,403 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.1118476; after normalization is 0.42627317000000003.....0.26238479893069505
+03 九月 2015 15:38:25,403 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04145376; after normalization is 0.42627317000000003.....0.09724693674715675
+03 九月 2015 15:38:25,403 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.05094502; after normalization is 0.42627317000000003.....0.11951261206516937
+03 九月 2015 15:38:25,403 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05386301; after normalization is 0.42627317000000003.....0.12635796430725396
+03 九月 2015 15:38:25,404 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,404 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,404 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,404 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,404 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,404 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,405 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 4
+03 九月 2015 15:38:25,405 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,406 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,406 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.09128522; after normalization is 0.42716923000000007.....0.21369802314647052
+03 九月 2015 15:38:25,406 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03771627; after normalization is 0.42716923000000007.....0.08829350840649267
+03 九月 2015 15:38:25,406 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.03993982; after normalization is 0.42716923000000007.....0.09349882246902473
+03 九月 2015 15:38:25,407 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11447514; after normalization is 0.42716923000000007.....0.2679854539148337
+03 九月 2015 15:38:25,407 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.03993982; after normalization is 0.42716923000000007.....0.09349882246902473
+03 九月 2015 15:38:25,407 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.0489258; after normalization is 0.42716923000000007.....0.11453493501861076
+03 九月 2015 15:38:25,407 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05488716; after normalization is 0.42716923000000007.....0.1284904345755428
+03 九月 2015 15:38:25,407 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,407 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,408 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,408 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,408 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,408 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,408 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 5
+03 九月 2015 15:38:25,408 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,413 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,414 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08860601; after normalization is 0.42641351999999993.....0.2077936224911443
+03 九月 2015 15:38:25,414 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03798719; after normalization is 0.42641351999999993.....0.08908533200354436
+03 九月 2015 15:38:25,414 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04038116; after normalization is 0.42641351999999993.....0.09469953016499102
+03 九月 2015 15:38:25,414 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11524849; after normalization is 0.42641351999999993.....0.270274005383319
+03 九月 2015 15:38:25,415 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04038116; after normalization is 0.42641351999999993.....0.09469953016499102
+03 九月 2015 15:38:25,415 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04942182; after normalization is 0.42641351999999993.....0.11590115622975558
+03 九月 2015 15:38:25,415 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05438769; after normalization is 0.42641351999999993.....0.1275468235622548
+03 九月 2015 15:38:25,418 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,418 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,419 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,419 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,419 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,419 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,420 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 6
+03 九月 2015 15:38:25,420 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,421 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,422 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08945314; after normalization is 0.42630148000000007.....0.20983539630216622
+03 九月 2015 15:38:25,422 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.0376752; after normalization is 0.42630148000000007.....0.08837689233450466
+03 九月 2015 15:38:25,422 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04019917; after normalization is 0.42630148000000007.....0.09429751451953672
+03 九月 2015 15:38:25,422 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11483425; after normalization is 0.42630148000000007.....0.269373331755733
+03 九月 2015 15:38:25,422 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04019917; after normalization is 0.42630148000000007.....0.09429751451953672
+03 九月 2015 15:38:25,422 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04915256; after normalization is 0.42630148000000007.....0.11529999848933199
+03 九月 2015 15:38:25,423 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05478799; after normalization is 0.42630148000000007.....0.12851935207919052
+03 九月 2015 15:38:25,423 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,423 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,423 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,423 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,423 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,423 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,424 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 7
+03 九月 2015 15:38:25,424 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,425 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,425 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08857623; after normalization is 0.42610827999999995.....0.2078725858131647
+03 九月 2015 15:38:25,426 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03761984; after normalization is 0.42610827999999995.....0.08828704290843634
+03 九月 2015 15:38:25,426 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04024436; after normalization is 0.42610827999999995.....0.09444632242302357
+03 九月 2015 15:38:25,426 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11574137; after normalization is 0.42610827999999995.....0.2716243157725074
+03 九月 2015 15:38:25,426 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04024436; after normalization is 0.42610827999999995.....0.09444632242302357
+03 九月 2015 15:38:25,427 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.0491585; after normalization is 0.42610827999999995.....0.11536621630539544
+03 九月 2015 15:38:25,427 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05452362; after normalization is 0.42610827999999995.....0.12795719435444908
+03 九月 2015 15:38:25,427 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,427 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,427 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,427 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,427 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,428 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,428 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 8
+03 九月 2015 15:38:25,428 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,430 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,430 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08876573; after normalization is 0.42599517.....0.20837262075060617
+03 九月 2015 15:38:25,430 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03753497; after normalization is 0.42599517.....0.08811125722387886
+03 九月 2015 15:38:25,430 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04024792; after normalization is 0.42599517.....0.0944797566601518
+03 九月 2015 15:38:25,431 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11538272; after normalization is 0.42599517.....0.27085452635531054
+03 九月 2015 15:38:25,431 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04024792; after normalization is 0.42599517.....0.0944797566601518
+03 九月 2015 15:38:25,431 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04913532; after normalization is 0.42599517.....0.11534243451633502
+03 九月 2015 15:38:25,431 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05468059; after normalization is 0.42599517.....0.12835964783356582
+03 九月 2015 15:38:25,431 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,431 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,432 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,432 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,432 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,432 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,433 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 9
+03 九月 2015 15:38:25,433 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,434 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,435 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.0884631; after normalization is 0.42592813.....0.20769489913709152
+03 九月 2015 15:38:25,435 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03748068; after normalization is 0.42592813.....0.08799766289209403
+03 九月 2015 15:38:25,435 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04025348; after normalization is 0.42592813.....0.09450768137807662
+03 九月 2015 15:38:25,435 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11580797; after normalization is 0.42592813.....0.2718955660430317
+03 九月 2015 15:38:25,435 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04025348; after normalization is 0.42592813.....0.09450768137807662
+03 九月 2015 15:38:25,435 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04911385; after normalization is 0.42592813.....0.11531018155574745
+03 九月 2015 15:38:25,435 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455557; after normalization is 0.42592813.....0.12808632761588204
+03 九月 2015 15:38:25,436 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,436 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,436 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,436 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,436 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,436 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,437 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 10
+03 九月 2015 15:38:25,437 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,438 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,438 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08850328; after normalization is 0.42587116999999997.....0.20781702597994603
+03 九月 2015 15:38:25,438 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.0374479; after normalization is 0.42587116999999997.....0.08793246088952207
+03 九月 2015 15:38:25,439 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04026683; after normalization is 0.42587116999999997.....0.09455166922898305
+03 九月 2015 15:38:25,439 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11566183; after normalization is 0.42587116999999997.....0.27158877648374274
+03 九月 2015 15:38:25,439 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04026683; after normalization is 0.42587116999999997.....0.09455166922898305
+03 九月 2015 15:38:25,439 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04911356; after normalization is 0.42587116999999997.....0.11532492326259138
+03 九月 2015 15:38:25,439 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05461094; after normalization is 0.42587116999999997.....0.1282334749262318
+03 九月 2015 15:38:25,440 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,440 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,440 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,440 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,440 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,440 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,441 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 11
+03 九月 2015 15:38:25,441 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,442 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,443 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08839478; after normalization is 0.42584411000000005.....0.20757544351147653
+03 九月 2015 15:38:25,443 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03741978; after normalization is 0.42584411000000005.....0.08787201494932029
+03 九月 2015 15:38:25,443 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04026948; after normalization is 0.42584411000000005.....0.09456390039068521
+03 九月 2015 15:38:25,444 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11582866; after normalization is 0.42584411000000005.....0.27199779750388
+03 九月 2015 15:38:25,444 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04026948; after normalization is 0.42584411000000005.....0.09456390039068521
+03 九月 2015 15:38:25,444 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.0491029; after normalization is 0.42584411000000005.....0.11530721887875822
+03 九月 2015 15:38:25,444 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455903; after normalization is 0.42584411000000005.....0.12811972437519448
+03 九月 2015 15:38:25,444 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,444 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,445 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,445 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,445 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,445 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,445 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 12
+03 九月 2015 15:38:25,445 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,447 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,447 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08840098; after normalization is 0.42581903.....0.20760222951989724
+03 九月 2015 15:38:25,447 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03740515; after normalization is 0.42581903.....0.08784283313970256
+03 九月 2015 15:38:25,447 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04027673; after normalization is 0.42581903.....0.09458649605209048
+03 九月 2015 15:38:25,447 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11577965; after normalization is 0.42581903.....0.27189872185843833
+03 九月 2015 15:38:25,447 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04027673; after normalization is 0.42581903.....0.09458649605209048
+03 九月 2015 15:38:25,448 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04910316; after normalization is 0.42581903.....0.11531462086135512
+03 九月 2015 15:38:25,448 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05457663; after normalization is 0.42581903.....0.1281686025164258
+03 九月 2015 15:38:25,448 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,448 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,448 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,448 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,448 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,449 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.001s
+03 九月 2015 15:38:25,449 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 13
+03 九月 2015 15:38:25,449 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,450 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,451 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08836107; after normalization is 0.42580739.....0.20751417677368164
+03 九月 2015 15:38:25,451 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03739235; after normalization is 0.42580739.....0.0878151738982266
+03 九月 2015 15:38:25,451 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04027846; after normalization is 0.42580739.....0.09459314456707762
+03 九月 2015 15:38:25,451 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11584171; after normalization is 0.42580739.....0.27205190121289347
+03 九月 2015 15:38:25,451 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04027846; after normalization is 0.42580739.....0.09459314456707762
+03 九月 2015 15:38:25,451 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909881; after normalization is 0.42580739.....0.11530755725023936
+03 九月 2015 15:38:25,452 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455653; after normalization is 0.42580739.....0.12812490173080368
+03 九月 2015 15:38:25,452 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,452 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,452 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,452 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,452 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,452 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,453 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 14
+03 九月 2015 15:38:25,453 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,454 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,455 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08836042; after normalization is 0.4257968.....0.207517811312814
+03 九月 2015 15:38:25,455 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03738569; after normalization is 0.4257968.....0.08780171668739643
+03 九月 2015 15:38:25,455 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028171; after normalization is 0.4257968.....0.09460312994367266
+03 九月 2015 15:38:25,455 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11582693; after normalization is 0.4257968.....0.2720239560278518
+03 九月 2015 15:38:25,455 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028171; after normalization is 0.4257968.....0.09460312994367266
+03 九月 2015 15:38:25,455 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909871; after normalization is 0.4257968.....0.11531019021279634
+03 九月 2015 15:38:25,455 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05456163; after normalization is 0.4257968.....0.12814006587179613
+03 九月 2015 15:38:25,456 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,456 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,456 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,456 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,456 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,456 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,456 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 15
+03 九月 2015 15:38:25,456 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,458 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,458 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08834543; after normalization is 0.42579168000000006.....0.2074851016346773
+03 九月 2015 15:38:25,458 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03738012; after normalization is 0.42579168000000006.....0.08778969095873362
+03 九月 2015 15:38:25,458 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028267; after normalization is 0.42579168000000006.....0.09460652213777403
+03 九月 2015 15:38:25,458 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11584973; after normalization is 0.42579168000000006.....0.2720807743354684
+03 九月 2015 15:38:25,459 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028267; after normalization is 0.42579168000000006.....0.09460652213777403
+03 九月 2015 15:38:25,459 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909699; after normalization is 0.42579168000000006.....0.11530753724450415
+03 九月 2015 15:38:25,459 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455407; after normalization is 0.42579168000000006.....0.12812385155106834
+03 九月 2015 15:38:25,459 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,459 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,460 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,460 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,460 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,460 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,460 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 16
+03 九月 2015 15:38:25,460 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,461 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,462 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08834409; after normalization is 0.42578723999999996.....0.20748411812434775
+03 九月 2015 15:38:25,462 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737712; after normalization is 0.42578723999999996.....0.08778356063464937
+03 九月 2015 15:38:25,462 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028404; after normalization is 0.42578723999999996.....0.09461072623970603
+03 九月 2015 15:38:25,462 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11584572; after normalization is 0.42578723999999996.....0.27207419367475644
+03 九月 2015 15:38:25,462 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028404; after normalization is 0.42578723999999996.....0.09461072623970603
+03 九月 2015 15:38:25,463 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909683; after normalization is 0.42578723999999996.....0.1153083638673625
+03 九月 2015 15:38:25,463 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.0545554; after normalization is 0.42578723999999996.....0.12812831121947196
+03 九月 2015 15:38:25,463 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,463 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,463 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,463 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,463 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,464 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,464 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 17
+03 九月 2015 15:38:25,464 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,465 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,465 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833835; after normalization is 0.42578499000000003.....0.20747173356204968
+03 九月 2015 15:38:25,466 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737473; after normalization is 0.42578499000000003.....0.08777841135264068
+03 九月 2015 15:38:25,466 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028453; after normalization is 0.42578499000000003.....0.09461237701216287
+03 九月 2015 15:38:25,466 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585413; after normalization is 0.42578499000000003.....0.27209538316510407
+03 九月 2015 15:38:25,466 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028453; after normalization is 0.42578499000000003.....0.09461237701216287
+03 九月 2015 15:38:25,466 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909615; after normalization is 0.42578499000000003.....0.11530737614775945
+03 九月 2015 15:38:25,466 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455257; after normalization is 0.42578499000000003.....0.12812234174812034
+03 九月 2015 15:38:25,467 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,467 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,467 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,467 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,467 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,467 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,468 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 18
+03 九月 2015 15:38:25,468 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,470 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,470 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833742; after normalization is 0.42578313.....0.2074704556754045
+03 九月 2015 15:38:25,470 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.0373734; after normalization is 0.42578313.....0.08777567114977054
+03 九月 2015 15:38:25,470 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.0402851; after normalization is 0.42578313.....0.09461412902855028
+03 九月 2015 15:38:25,470 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585322; after normalization is 0.42578313.....0.27209443455404164
+03 九月 2015 15:38:25,470 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.0402851; after normalization is 0.42578313.....0.09461412902855028
+03 九月 2015 15:38:25,470 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909604; after normalization is 0.42578313.....0.1153076215114488
+03 九月 2015 15:38:25,470 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455285; after normalization is 0.42578313.....0.12812355905223394
+03 九月 2015 15:38:25,471 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,471 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,471 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,471 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,471 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,471 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,471 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 19
+03 九月 2015 15:38:25,471 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,473 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,473 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833519; after normalization is 0.42578214.....0.2074657006515116
+03 九月 2015 15:38:25,473 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737238; after normalization is 0.42578214.....0.08777347964853575
+03 九月 2015 15:38:25,473 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028533; after normalization is 0.42578214.....0.09461488920131784
+03 九月 2015 15:38:25,473 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585635; after normalization is 0.42578214.....0.2721024183870183
+03 九月 2015 15:38:25,473 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028533; after normalization is 0.42578214.....0.09461488920131784
+03 九月 2015 15:38:25,473 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909577; after normalization is 0.42578214.....0.11530725548986155
+03 九月 2015 15:38:25,474 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455179; after normalization is 0.42578214.....0.12812136742043714
+03 九月 2015 15:38:25,474 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,474 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,474 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,474 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,474 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,474 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,474 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 20
+03 九月 2015 15:38:25,474 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,475 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833467; after normalization is 0.42578135.....0.20746486430183003
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.0373718; after normalization is 0.42578135.....0.08777228030302407
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028556; after normalization is 0.42578135.....0.09461560493431663
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585625; after normalization is 0.42578135.....0.2721026883868915
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028556; after normalization is 0.42578135.....0.09461560493431663
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.0490957; after normalization is 0.42578135.....0.11530730502874303
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455181; after normalization is 0.42578135.....0.12812165211087803
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,476 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,477 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,477 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,477 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,477 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,477 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 21
+03 九月 2015 15:38:25,477 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,478 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,478 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833379; after normalization is 0.42578091.....0.20746301190440875
+03 九月 2015 15:38:25,478 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737136; after normalization is 0.42578091.....0.0877713376111672
+03 九月 2015 15:38:25,478 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028567; after normalization is 0.42578091.....0.09461596105847019
+03 九月 2015 15:38:25,478 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585742; after normalization is 0.42578091.....0.272105717468639
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028567; after normalization is 0.42578091.....0.09461596105847019
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909559; after normalization is 0.42578091.....0.11530716583794233
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455141; after normalization is 0.42578091.....0.12812084506090232
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,479 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 22
+03 九月 2015 15:38:25,479 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,480 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833353; after normalization is 0.42578060999999995.....0.20746254743728232
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737111; after normalization is 0.42578060999999995.....0.08777081229697145
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028577; after normalization is 0.42578060999999995.....0.09461626258649966
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585748; after normalization is 0.42578060999999995.....0.27210605010876376
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028577; after normalization is 0.42578060999999995.....0.09461626258649966
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909556; after normalization is 0.42578060999999995.....0.11530717662319101
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455139; after normalization is 0.42578060999999995.....0.12812088836079222
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,481 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,482 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,482 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,482 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,482 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 23
+03 九月 2015 15:38:25,482 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,483 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,483 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833317; after normalization is 0.42578041.....0.20746179938151688
+03 九月 2015 15:38:25,483 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737092; after normalization is 0.42578041.....0.08777040728576499
+03 九月 2015 15:38:25,483 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028582; after normalization is 0.42578041.....0.0946164244616139
+03 九月 2015 15:38:25,483 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585793; after normalization is 0.42578041.....0.2721072348067869
+03 九月 2015 15:38:25,483 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028582; after normalization is 0.42578041.....0.0946164244616139
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909552; after normalization is 0.42578041.....0.11530713684079547
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455123; after normalization is 0.42578041.....0.12812057276190794
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,484 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 24
+03 九月 2015 15:38:25,484 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,485 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833305; after normalization is 0.42578027000000007.....0.20746158576112506
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737081; after normalization is 0.42578027000000007.....0.087770177796167
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028586; after normalization is 0.42578027000000007.....0.09461654951743065
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585798; after normalization is 0.42578027000000007.....0.27210744170931167
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028586; after normalization is 0.42578027000000007.....0.09461654951743065
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.0490955; after normalization is 0.42578027000000007.....0.11530712778213043
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455121; after normalization is 0.42578027000000007.....0.1281205679164044
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,486 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,487 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,487 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,487 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,487 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,487 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 25
+03 九月 2015 15:38:25,487 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,488 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,488 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.0883329; after normalization is 0.42578017999999995.....0.20746127731920264
+03 九月 2015 15:38:25,488 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737073; after normalization is 0.42578017999999995.....0.08777000845835521
+03 九月 2015 15:38:25,488 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028588; after normalization is 0.42578017999999995.....0.09461661648975771
+03 九月 2015 15:38:25,488 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585816; after normalization is 0.42578017999999995.....0.2721079219798348
+03 九月 2015 15:38:25,488 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028588; after normalization is 0.42578017999999995.....0.09461661648975771
+03 九月 2015 15:38:25,488 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909548; after normalization is 0.42578017999999995.....0.11530710518277296
+03 九月 2015 15:38:25,489 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455115; after normalization is 0.42578017999999995.....0.1281204540803191
+03 九月 2015 15:38:25,489 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,489 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,489 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,489 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,489 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,489 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,489 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 26
+03 九月 2015 15:38:25,489 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,490 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,490 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833285; after normalization is 0.42578014999999997.....0.2074611745051995
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737069; after normalization is 0.42578014999999997.....0.08776992069733641
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.0402859; after normalization is 0.42578014999999997.....0.09461667012893861
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585819; after normalization is 0.42578014999999997.....0.2721080116111566
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.0402859; after normalization is 0.42578014999999997.....0.09461667012893861
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909548; after normalization is 0.42578014999999997.....0.11530711330718448
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455114; after normalization is 0.42578014999999997.....0.12812043962124586
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,491 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,492 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,492 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,492 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,492 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 27
+03 九月 2015 15:38:25,492 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,493 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,493 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833279; after normalization is 0.42578009.....0.20746106282235977
+03 九月 2015 15:38:25,493 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737065; after normalization is 0.42578009.....0.08776983912047179
+03 九月 2015 15:38:25,493 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.0402859; after normalization is 0.42578009.....0.09461668346211304
+03 九月 2015 15:38:25,493 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585826; after normalization is 0.42578009.....0.2721082143601407
+03 九月 2015 15:38:25,493 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.0402859; after normalization is 0.42578009.....0.09461668346211304
+03 九月 2015 15:38:25,493 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909547; after normalization is 0.42578009.....0.11530710606970843
+03 九月 2015 15:38:25,493 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455112; after normalization is 0.42578009.....0.12812041070309324
+03 九月 2015 15:38:25,494 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,494 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,494 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,494 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,494 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,494 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,494 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 28
+03 九月 2015 15:38:25,494 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,495 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,495 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833276; after normalization is 0.42578006.....0.20746100698092812
+03 九月 2015 15:38:25,495 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737063; after normalization is 0.42578006.....0.08776979833203086
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028591; after normalization is 0.42578006.....0.09461671361500583
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585827; after normalization is 0.42578006.....0.27210825701889374
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028591; after normalization is 0.42578006.....0.09461671361500583
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909547; after normalization is 0.42578006.....0.11530711419412172
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455111; after normalization is 0.42578006.....0.12812039624401386
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,496 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,497 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.001s
+03 九月 2015 15:38:25,497 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 29
+03 九月 2015 15:38:25,497 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,498 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,498 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833273; after normalization is 0.42578003.....0.20746095113948862
+03 九月 2015 15:38:25,498 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737062; after normalization is 0.42578003.....0.08776978102989001
+03 九月 2015 15:38:25,498 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028591; after normalization is 0.42578003.....0.09461672028159705
+03 九月 2015 15:38:25,498 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.1158583; after normalization is 0.42578003.....0.27210834665026445
+03 九月 2015 15:38:25,498 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028591; after normalization is 0.42578003.....0.09461672028159705
+03 九月 2015 15:38:25,498 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909546; after normalization is 0.42578003.....0.11530709883223035
+03 九月 2015 15:38:25,498 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.0545511; after normalization is 0.42578003.....0.12812038178493246
+03 九月 2015 15:38:25,499 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,499 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,499 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,499 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,499 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,499 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,499 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 30
+03 九月 2015 15:38:25,499 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,500 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833272; after normalization is 0.42578003999999997.....0.20746092278069214
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.03737061; after normalization is 0.42578003999999997.....0.08776975548219687
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028592; after normalization is 0.42578003999999997.....0.09461674154570517
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585831; after normalization is 0.42578003999999997.....0.2721083637457501
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028592; after normalization is 0.42578003999999997.....0.09461674154570517
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909546; after normalization is 0.42578003999999997.....0.11530709612409262
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.0545511; after normalization is 0.42578003999999997.....0.12812037877585808
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,501 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,502 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,502 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,502 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,502 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,502 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 31
+03 九月 2015 15:38:25,502 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,503 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,503 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833271; after normalization is 0.42578002000000004.....0.20746090903936729
+03 九月 2015 15:38:25,503 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.0373706; after normalization is 0.42578002000000004.....0.0877697361186652
+03 九月 2015 15:38:25,504 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028592; after normalization is 0.42578002000000004.....0.09461674599010071
+03 九月 2015 15:38:25,504 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585832; after normalization is 0.42578002000000004.....0.2721084000136972
+03 九月 2015 15:38:25,504 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028592; after normalization is 0.42578002000000004.....0.09461674599010071
+03 九月 2015 15:38:25,504 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909546; after normalization is 0.42578002000000004.....0.11530710154036819
+03 九月 2015 15:38:25,504 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455109; after normalization is 0.42578002000000004.....0.12812036130770063
+03 九月 2015 15:38:25,504 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,504 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,505 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.001s
+03 九月 2015 15:38:25,505 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,505 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,505 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s
+03 九月 2015 15:38:25,505 [main] DEBUG com.dlmu.algorithm.EMAlgorithm  -EM_iteration: now the iteration is 32
+03 九月 2015 15:38:25,505 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: page rank start
+03 九月 2015 15:38:25,506 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: normalize the pagerank score
+03 九月 2015 15:38:25,506 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U1 is 0.08833271; after normalization is 0.42578003.....0.20746090416687696
+03 九月 2015 15:38:25,506 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S3 is 0.0373706; after normalization is 0.42578003.....0.08776973405727835
+03 九月 2015 15:38:25,506 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S2 is 0.04028592; after normalization is 0.42578003.....0.09461674376790288
+03 九月 2015 15:38:25,506 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of P1 is 0.11585833; after normalization is 0.42578003.....0.27210841710918193
+03 九月 2015 15:38:25,506 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S1 is 0.04028592; after normalization is 0.42578003.....0.09461674376790288
+03 九月 2015 15:38:25,506 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of S4 is 0.04909546; after normalization is 0.42578003.....0.11530709883223035
+03 九月 2015 15:38:25,507 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -The pagerank score of U2 is 0.05455109; after normalization is 0.42578003.....0.12812035829862667
+03 九月 2015 15:38:25,507 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-eStep: time of e-step: 0s
+03 九月 2015 15:38:25,507 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start ranking node and getting the top 100 node for updating Pu
+03 九月 2015 15:38:25,507 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of ranking node is 0.0s
+03 九月 2015 15:38:25,507 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: start calculating the node usefulness 
+03 九月 2015 15:38:25,507 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of calculating the node usefulness 0.0s
+03 九月 2015 15:38:25,507 [main] INFO  com.dlmu.algorithm.EMAlgorithm  -EM-mStep: time of m-step : 0.0s

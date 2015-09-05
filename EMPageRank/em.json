@@ -1,0 +1,19 @@
+{
+  
+  "damping_factor": 0.85,
+  "contribution_factor": 0.3,
+  "thread_num": 10,
+  "all_node_num": 7,
+  "topRankedNode": 100,
+  "search_depth":5,
+  "max_iteration": 400,
+  "convergency_threshold":0.0000001,
+  "feedback_file": "/Users/yyy/Documents/workspace/EMPageRank/feedback.txt",
+  "node_file": "/Users/yyy/Documents/workspace/EMPageRank/pagerank_node.txt",
+  "edge_file": "/Users/yyy/Documents/workspace/EMPageRank/pagerank_link.txt",
+  "edgeType_file": "/Users/yyy/Documents/workspace/EMPageRank/pagerank_type.txt",
+  "output_node_file": "/Users/yyy/Documents/workspace/EMPageRank/node_score",
+  "output_edgeType_file": "/Users/yyy/Documents/workspace/EMPageRank/edgeType_score",
+  "log_file":"./log4j.properties",
+  "plot_file":"/Users/yyy/Desktop/toy4"
+}
