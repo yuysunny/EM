@@ -37,7 +37,8 @@ public class EMAlgorithm {
 
 	public EMAlgorithm(MyGraph g) {
 		this.graph = g;
-		
+		alg = new DijkstraDistance(graph);
+		alg.setMaxDistance(JsonUtil.search_depth);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -117,8 +118,7 @@ public class EMAlgorithm {
 	 */
 	public int shortLength(MyNode source, MyNode target) {
 //		 System.out.println(source.getId()+","+target.getId());
-		alg = new DijkstraDistance(graph);
-		alg.setMaxDistance(JsonUtil.search_depth);
+		
 		 if(alg.getDistance(source, target)==null)
 		 {
 			 return JsonUtil.search_depth;
