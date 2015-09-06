@@ -1,0 +1,9 @@
+cite
+co_author
+publishedat
+writtenby
+relevant
+cite-1
+publishedat-1
+writtenby-1
+relevant-1

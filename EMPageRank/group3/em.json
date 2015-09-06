@@ -1,0 +1,20 @@
+{
+  
+  "damping_factor": 0.85,
+  "contribution_factor": 0.5,
+  "thread_num": 10,
+  "all_node_num": 101238,
+  "topRankedNode": 300,
+  "search_depth":5,
+  "max_iteration": 100,
+  "convergency_threshold":0.000001,
+  "feedback_file": "./group3/feedback",
+  "node_file": "./group3/node_input",
+  "edge_file": "./group3/edge_input",
+  "edgeType_file": "./group3/edge_type.txt",
+  "output_node_file": "./group3/node_score",
+  "output_edgeType_file": "./group3/edge_type_score",
+  "log_file":"./log4j.properties",
+  "plot_file":"",
+  "task_node":"paper"
+}
